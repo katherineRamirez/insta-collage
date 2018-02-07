@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body{
+  background: linear-gradient(45deg, rgba(212,38,200,1) 0%, rgba(28,230,92,1) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.btn, input, button{
+  background-color: transparent;
+  color: white;
+}
+.btn{
+  margin-left: 12em;
+  margin-top: 2em;
+  outline: none;
+  border: 0;
+}
+.title{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: 4em;
+}
+input, button, p, i{
+  margin-left: 2em;
+  margin-top: 0.70em;
+}
+.input-user{
+  margin-top: 2em;
+}
+input{
+  padding: 1em 16em 0.70em 1em;
+  outline: none;
+  border: 0;
+  background-color: #E3F6CE;
+}
+.logIn{
+  padding: 1em 13em 0.70em 10em;
+  border: 1px solid white;
+}
+.help{
+  margin-left: 4em;
+}
+i{
+  margin-left: 7em;
+}
+.otherIncome::after, .otherIncome::before{
+  content: "";
+  display: inline-block;
+  width: 35%;
+  height: 0.1em;
+  background-color: white;
+  margin-left: 2em;
+}
+hr{
+  margin-top: 5em;
+}
+.signUp{
+  text-align: center;
+}
+.help, .facebook, .signUp{
+  text-decoration: none;
+}

@@ -27,10 +27,12 @@ body{
 input, button, p, i{
   margin-left: 2em;
   margin-top: 0.70em;
+  color: black;
 }
 .input-user{
   margin-top: 2em;
 }
+
 input{
   padding: 1em 16em 0.70em 1em;
   outline: none;

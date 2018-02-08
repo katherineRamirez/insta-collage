@@ -27,10 +27,12 @@ body{
 input, button, p, i{
   margin-left: 2em;
   margin-top: 0.70em;
+  color: black;
 }
 .input-user{
   margin-top: 2em;
 }
+
 input{
   padding: 1em 16em 0.70em 1em;
   outline: none;
@@ -63,4 +65,91 @@ hr{
 }
 .help, .facebook, .signUp{
   text-decoration: none;
+}
+
+.collage{
+  width: 100%;
+  height: 20em;
+  border: 0.2em black solid;
+}
+
+.imagenesCollage{
+  width: 100%;
+  height: 20em;
+  border: 0.2em black solid;
+}
+
+.row h1{
+  text-align: center
+}
+
+.imageFlex{
+  display: flex;
+}
+
+
+.box{
+  border: 1px orange solid;
+}
+
+.collage ul{
+  display: flex;
+}
+
+.bigBox{
+  width: 80%;
+  height: 38em;
+}
+
+.first{
+  width: 100%;
+  background-color: #FFA792;
+  height: 15em;
+  text-align: center;
+  padding: 2em;
+}
+
+.second{
+  width: 100%;
+  background-color: #82C1DC;
+  height: 18em;
+  text-align: center;
+}
+
+
+.second img{
+  width: 5.5em;
+  border: 0.2em white solid;
+  margin: 0.2em;
+}
+
+.first img{
+  width: 5em;
+  border: 0.2em white solid;
+  padding: 1em;
+}
+
+
+.title{
+  text-align: center;
+  margin-top: -0.1em;
+}
+
+
+.buttonPdf{
+  text-align: right;
+  margin-top: -3em;
+  margin-right: 2em;
+
+}
+
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fa9095;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer;
 }

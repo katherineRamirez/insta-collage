@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>InstaCollage</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 title">
+                    <h2>Collage</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container bigBox" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="row">
+                <div class="col s12 first" id="idFirst" ondragover="allowDrop(event)">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 second">
+                    <img class="image" id="image1" src="assets/images/beach (1).png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image2" src="assets/images/beach (2).png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image3" src="assets/images/beach.png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image4" src="assets/images/coconut-tree.png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image5" src="assets/images/dolphin.png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image6" src="assets/images/landscape.png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image7" src="assets/images/palm-tree.png" draggable="true" ondragstart="drag(event)" alt="">
+                    <img class="image" id="image8" src="assets/images/sun-umbrella.png" draggable="true" ondragstart="drag(event)" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="buttonPdf">
+            <a class="waves-effect waves-light btn converttoPdf">Convert to PDF</a>
+        </div>
+    </section> -->
+
+    <script type="text/javascript" src="assets/js/app2.js"></script>
+</body>
+
+</html>

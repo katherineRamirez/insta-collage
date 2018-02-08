@@ -1,0 +1,25 @@
+var users = [{
+    "first_name": "Claudina",
+    "last_name": "Cortez",
+    "user": "claudinacr",
+    "password": "123456789",
+    "birth_date": "1990-03-15",
+    "age": "20",
+    "gender": "F",
+    "adress": "Venecia 1605",
+    "ocupation": "database developer ",
+    "photo": "assets/images/girl13.png",
+  },
+  {
+    "first_name": "Katy",
+    "last_name": "Gallardo",
+    "user": "Katykaty",
+    "password": "12345678",
+    "birth_date": "1990-03-15",
+    "age": "20",
+    "gender": "F",
+    "adress": "Venecia 1605",
+    "ocupation": "database developer ",
+    "photo": "assets/images/girl6.png",
+  }
+];

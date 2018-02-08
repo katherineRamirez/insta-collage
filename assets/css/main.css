@@ -103,7 +103,7 @@ hr{
 
 .first{
   width: 100%;
-  background-color: #FFA792;
+  background-color: #82C1DC;
   height: 15em;
   text-align: center;
   padding: 2em;
@@ -111,7 +111,7 @@ hr{
 
 .second{
   width: 100%;
-  background-color: #82C1DC;
+  background-color: #FFA792;
   height: 18em;
   text-align: center;
 }
@@ -125,6 +125,7 @@ hr{
 
 .first img{
   width: 5.8em;
+  border: 0.4em white solid;
 }
 
 
@@ -152,3 +153,6 @@ hr{
   cursor: pointer;
 }
 
+#idFirst{
+  padding: 1em;
+}

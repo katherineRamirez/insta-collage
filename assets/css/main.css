@@ -95,3 +95,23 @@ hr{
 .collage ul{
   display: flex;
 }
+
+.bigBox{
+  width: 80%;
+  background-color: burlywood;
+  height: 30em;
+}
+
+.first{
+  width: 100%;
+  background-color: blue;
+  height: 15em;
+}
+
+.second{
+  width: 100%;
+  background-color: pink;
+  height: 15em;
+  text-align: center;
+}
+

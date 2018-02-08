@@ -1,29 +1,18 @@
-//API Drag and Drop
-//Box Destino
-
-var elemento = document.querySelector('.element');
-var boxDestino = document.querySelector('.collage');
-
-elemento.ondragstart = function (event) {
-    event.dataTransfer.setData('key', event.target.id);
-    console.log('is draging');
+function allowDrop(ev) {
+    ev.preventDefault();
 }
 
-boxDestino.ondragover = function (event) {
-    event.preventDefault();
-    console.log('is draging over');
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
 }
 
-boxDestino.ondrop = function (event) {
-    var dropItem = event.dataTransfer.getData('key');
-    event.preventDefault();
-    console.log(event);
-    console.log('is dropped...');
-    console.log(dropItem);
-    var myElement = document.getElementById(dropItem);
-    console.log(myElement);
-    var myNewElement = document.createElement('img');
-    boxDestino.appendChild()
 
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    var idFirst = document.querySelector('#idFirst').childElementCount;
+    console.log(idFirst);
 }
+
 

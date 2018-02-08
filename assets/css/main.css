@@ -99,19 +99,31 @@ hr{
 .bigBox{
   width: 80%;
   background-color: burlywood;
-  height: 30em;
+  height: 42em;
 }
 
 .first{
   width: 100%;
   background-color: blue;
-  height: 15em;
+  height: 21em;
 }
 
 .second{
   width: 100%;
   background-color: pink;
-  height: 15em;
+  height: 21em;
   text-align: center;
 }
 
+
+.second img{
+  width: 5em;
+  border: 0.2em white solid;
+  margin: 0.2em;
+}
+
+.first img{
+  width: 5em;
+  border: 0.2em white solid;
+  margin: 0.2em;
+}

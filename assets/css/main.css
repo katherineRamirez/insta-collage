@@ -124,9 +124,7 @@ hr{
 }
 
 .first img{
-  width: 5em;
-  border: 0.2em white solid;
-  padding: 1em;
+  width: 5.8em;
 }
 
 
@@ -153,3 +151,4 @@ hr{
   transition: .2s ease-out;
   cursor: pointer;
 }
+
